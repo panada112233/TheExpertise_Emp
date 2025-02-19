@@ -1,0 +1,6 @@
+dotnet ef dbcontext scaffold "Data Source=localhost;Database=EmployeeDocumentDBS;User Id=sa;Password=panatda1122;TrustServerCertificate=yes;MultipleActiveResultSets=true" Microsoft.EntityFrameworkCore.SqlServer --output-dir temp -t Document
+
+
+
+
+dotnet ef dbcontext scaffold "Data Source=localhost;Database=EmployeeDocumentDBS;User Id=sa;Password=panatda1122;TrustServerCertificate=yes;MultipleActiveResultSets=true" Microsoft.EntityFrameworkCore.SqlServer --output-dir temp -t historyleave

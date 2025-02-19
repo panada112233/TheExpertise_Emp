@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\P\\TheExpertise_Emp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41D551AC-8836-4FA7-B6DE-1CED0DE82257}|TheExpertise_Emp\\TheExpertise_Emp.csproj|e:\\p\\theexpertise_emp\\theexpertise_emp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D551AC-8836-4FA7-B6DE-1CED0DE82257}|TheExpertise_Emp\\TheExpertise_Emp.csproj|solutionrelative:theexpertise_emp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D551AC-8836-4FA7-B6DE-1CED0DE82257}|TheExpertise_Emp\\TheExpertise_Emp.csproj|e:\\p\\theexpertise_emp\\theexpertise_emp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{41D551AC-8836-4FA7-B6DE-1CED0DE82257}|TheExpertise_Emp\\TheExpertise_Emp.csproj|solutionrelative:theexpertise_emp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D551AC-8836-4FA7-B6DE-1CED0DE82257}|TheExpertise_Emp\\TheExpertise_Emp.csproj|e:\\p\\theexpertise_emp\\theexpertise_emp\\controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D551AC-8836-4FA7-B6DE-1CED0DE82257}|TheExpertise_Emp\\TheExpertise_Emp.csproj|solutionrelative:theexpertise_emp\\controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D551AC-8836-4FA7-B6DE-1CED0DE82257}|TheExpertise_Emp\\TheExpertise_Emp.csproj|e:\\p\\theexpertise_emp\\theexpertise_emp\\data\\documentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D551AC-8836-4FA7-B6DE-1CED0DE82257}|TheExpertise_Emp\\TheExpertise_Emp.csproj|solutionrelative:theexpertise_emp\\data\\documentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D551AC-8836-4FA7-B6DE-1CED0DE82257}|TheExpertise_Emp\\TheExpertise_Emp.csproj|e:\\p\\theexpertise_emp\\theexpertise_emp\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D551AC-8836-4FA7-B6DE-1CED0DE82257}|TheExpertise_Emp\\TheExpertise_Emp.csproj|solutionrelative:theexpertise_emp\\controllers\\filescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D551AC-8836-4FA7-B6DE-1CED0DE82257}|TheExpertise_Emp\\TheExpertise_Emp.csproj|e:\\p\\theexpertise_emp\\theexpertise_emp\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D551AC-8836-4FA7-B6DE-1CED0DE82257}|TheExpertise_Emp\\TheExpertise_Emp.csproj|solutionrelative:theexpertise_emp\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D551AC-8836-4FA7-B6DE-1CED0DE82257}|TheExpertise_Emp\\TheExpertise_Emp.csproj|e:\\p\\theexpertise_emp\\theexpertise_emp\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D551AC-8836-4FA7-B6DE-1CED0DE82257}|TheExpertise_Emp\\TheExpertise_Emp.csproj|solutionrelative:theexpertise_emp\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D551AC-8836-4FA7-B6DE-1CED0DE82257}|TheExpertise_Emp\\TheExpertise_Emp.csproj|e:\\p\\theexpertise_emp\\theexpertise_emp\\models\\approvedrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D551AC-8836-4FA7-B6DE-1CED0DE82257}|TheExpertise_Emp\\TheExpertise_Emp.csproj|solutionrelative:theexpertise_emp\\models\\approvedrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\P\\TheExpertise_Emp\\TheExpertise_Emp\\Program.cs",
+              "RelativeDocumentMoniker": "TheExpertise_Emp\\Program.cs",
+              "ToolTip": "E:\\P\\TheExpertise_Emp\\TheExpertise_Emp\\Program.cs",
+              "RelativeToolTip": "TheExpertise_Emp\\Program.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAQwEkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T03:24:22.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\P\\TheExpertise_Emp\\TheExpertise_Emp\\appsettings.json",
+              "RelativeDocumentMoniker": "TheExpertise_Emp\\appsettings.json",
+              "ToolTip": "E:\\P\\TheExpertise_Emp\\TheExpertise_Emp\\appsettings.json",
+              "RelativeToolTip": "TheExpertise_Emp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-19T02:27:45.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "E:\\P\\TheExpertise_Emp\\TheExpertise_Emp\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "TheExpertise_Emp\\Controllers\\UsersController.cs",
+              "ToolTip": "E:\\P\\TheExpertise_Emp\\TheExpertise_Emp\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "TheExpertise_Emp\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T14:23:57.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\P\\TheExpertise_Emp\\TheExpertise_Emp\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "TheExpertise_Emp\\Entities\\User.cs",
+              "ToolTip": "E:\\P\\TheExpertise_Emp\\TheExpertise_Emp\\Entities\\User.cs",
+              "RelativeToolTip": "TheExpertise_Emp\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T14:23:34.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApprovedRequest.cs",
+              "DocumentMoniker": "E:\\P\\TheExpertise_Emp\\TheExpertise_Emp\\Models\\ApprovedRequest.cs",
+              "RelativeDocumentMoniker": "TheExpertise_Emp\\Models\\ApprovedRequest.cs",
+              "ToolTip": "E:\\P\\TheExpertise_Emp\\TheExpertise_Emp\\Models\\ApprovedRequest.cs",
+              "RelativeToolTip": "TheExpertise_Emp\\Models\\ApprovedRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T12:09:59.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DocumentRequest.cs",
+              "DocumentMoniker": "E:\\P\\TheExpertise_Emp\\TheExpertise_Emp\\Data\\DocumentRequest.cs",
+              "RelativeDocumentMoniker": "TheExpertise_Emp\\Data\\DocumentRequest.cs",
+              "ToolTip": "E:\\P\\TheExpertise_Emp\\TheExpertise_Emp\\Data\\DocumentRequest.cs",
+              "RelativeToolTip": "TheExpertise_Emp\\Data\\DocumentRequest.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAIA8wBsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T03:28:44.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FilesController.cs",
+              "DocumentMoniker": "E:\\P\\TheExpertise_Emp\\TheExpertise_Emp\\Controllers\\FilesController.cs",
+              "RelativeDocumentMoniker": "TheExpertise_Emp\\Controllers\\FilesController.cs",
+              "ToolTip": "E:\\P\\TheExpertise_Emp\\TheExpertise_Emp\\Controllers\\FilesController.cs",
+              "RelativeToolTip": "TheExpertise_Emp\\Controllers\\FilesController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T16:58:58.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DocumentController.cs",
+              "DocumentMoniker": "E:\\P\\TheExpertise_Emp\\TheExpertise_Emp\\Controllers\\DocumentController.cs",
+              "RelativeDocumentMoniker": "TheExpertise_Emp\\Controllers\\DocumentController.cs",
+              "ToolTip": "E:\\P\\TheExpertise_Emp\\TheExpertise_Emp\\Controllers\\DocumentController.cs",
+              "RelativeToolTip": "TheExpertise_Emp\\Controllers\\DocumentController.cs",
+              "ViewState": "AgIAAK0BAAAAAAAAAAAlwLMBAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T16:24:25.294Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TheExpertise_Emp.props" />
+</Project>

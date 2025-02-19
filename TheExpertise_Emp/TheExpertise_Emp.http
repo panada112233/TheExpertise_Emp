@@ -1,0 +1,6 @@
+@TheExpertise_Emp_HostAddress = http://localhost:5051
+
+GET {{TheExpertise_Emp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

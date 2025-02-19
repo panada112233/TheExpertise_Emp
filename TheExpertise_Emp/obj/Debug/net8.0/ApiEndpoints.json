@@ -1,0 +1,1338 @@
+[
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.AdminController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/Admin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.AdminController",
+    "Method": "CreateUser",
+    "RelativePath": "api/Admin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newUser",
+        "Type": "TheExpertise_Emp.Models.Users",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.AdminController",
+    "Method": "DeleteAdmin",
+    "RelativePath": "api/Admin/DeleteAdmin/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.AdminController",
+    "Method": "GetEducations",
+    "RelativePath": "api/Admin/educations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.AdminController",
+    "Method": "CreateEducation",
+    "RelativePath": "api/Admin/educations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newEducation",
+        "Type": "TheExpertise_Emp.Models.Educations",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.AdminController",
+    "Method": "GetEducationById",
+    "RelativePath": "api/Admin/educations/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.AdminController",
+    "Method": "UpdateEducation",
+    "RelativePath": "api/Admin/educations/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedEducation",
+        "Type": "TheExpertise_Emp.Models.Educations",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.AdminController",
+    "Method": "DeleteEducation",
+    "RelativePath": "api/Admin/educations/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.AdminController",
+    "Method": "GetEducationsByUserId",
+    "RelativePath": "api/Admin/educations/user/{userID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.AdminController",
+    "Method": "GetFiles",
+    "RelativePath": "api/Admin/files",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.AdminController",
+    "Method": "DeleteFile",
+    "RelativePath": "api/Admin/files/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.AdminController",
+    "Method": "GetAdminInfo",
+    "RelativePath": "api/Admin/GetAdminInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "adminid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.AdminController",
+    "Method": "GetUserRole",
+    "RelativePath": "api/Admin/GetUserRole",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.AdminController",
+    "Method": "GetUserById",
+    "RelativePath": "api/Admin/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.AdminController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/Admin/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedUser",
+        "Type": "TheExpertise_Emp.Models.Users",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.AdminController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/Admin/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.AdminController",
+    "Method": "Login",
+    "RelativePath": "api/Admin/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "TheExpertise_Emp.Models.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.AdminController",
+    "Method": "ManageData",
+    "RelativePath": "api/Admin/ManageData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.AdminController",
+    "Method": "RegisterAdmin",
+    "RelativePath": "api/Admin/RegisterAdmin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newAdmin",
+        "Type": "TheExpertise_Emp.Models.AdminUsers",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.AdminController",
+    "Method": "UpdateAdminInfo",
+    "RelativePath": "api/Admin/UpdateAdminInfo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "profilePictures",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.AdminController",
+    "Method": "GetUserss",
+    "RelativePath": "api/Admin/user",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.AdminController",
+    "Method": "GetUsers",
+    "RelativePath": "api/Admin/Users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.AdminController",
+    "Method": "CreateUsers",
+    "RelativePath": "api/Admin/Users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "TheExpertise_Emp.Models.Users",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.AdminController",
+    "Method": "DeleteUsers",
+    "RelativePath": "api/Admin/users/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.AdminController",
+    "Method": "GetById",
+    "RelativePath": "api/Admin/Users/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.AdminController",
+    "Method": "UpdateUsers",
+    "RelativePath": "api/Admin/Users/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedUser",
+        "Type": "TheExpertise_Emp.Models.Users",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.AdminController",
+    "Method": "GetWorkExperiences",
+    "RelativePath": "api/Admin/WorkExperiences",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.AdminController",
+    "Method": "AddWorkExperience",
+    "RelativePath": "api/Admin/WorkExperiences",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newWorkExperience",
+        "Type": "TheExpertise_Emp.Models.WorkExperiences",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.AdminController",
+    "Method": "GetWorkExperienceById",
+    "RelativePath": "api/Admin/WorkExperiences/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.AdminController",
+    "Method": "UpdateWorkExperience",
+    "RelativePath": "api/Admin/WorkExperiences/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedWorkExperience",
+        "Type": "TheExpertise_Emp.Models.WorkExperiences",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.AdminController",
+    "Method": "DeleteWorkExperience",
+    "RelativePath": "api/Admin/WorkExperiences/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.AdminController",
+    "Method": "GetWorkExperiencesByUserId",
+    "RelativePath": "api/Admin/WorkExperiences/user/{userID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.DocumentController",
+    "Method": "ApproveByHR",
+    "RelativePath": "api/Document/ApproveByHR",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TheExpertise_Emp.Models.ApproveRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.DocumentController",
+    "Method": "ApproveByManager",
+    "RelativePath": "api/Document/ApproveByManager",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TheExpertise_Emp.Models.ApproveRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.DocumentController",
+    "Method": "CreateDocument",
+    "RelativePath": "api/Document/CreateDocument",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documentreq",
+        "Type": "TheExpertise_Emp.Data.DocumentRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.DocumentController",
+    "Method": "DeleteDocument",
+    "RelativePath": "api/Document/DeleteDocument/{documentId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documentId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.DocumentController",
+    "Method": "GetAllDocument",
+    "RelativePath": "api/Document/Document",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.DocumentController",
+    "Method": "EditHRSignature",
+    "RelativePath": "api/Document/EditHRSignature",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TheExpertise_Emp.Models.ApproveRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.DocumentController",
+    "Method": "GetAllCommitedDocuments",
+    "RelativePath": "api/Document/GetAllCommitedDocuments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.DocumentController",
+    "Method": "GetApprovedFormsForHR",
+    "RelativePath": "api/Document/GetApprovedFormsForHR",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.DocumentController",
+    "Method": "GetApprovedFormsForManager",
+    "RelativePath": "api/Document/GetApprovedFormsForManager",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.DocumentController",
+    "Method": "GetCommitedDocumentsByUser",
+    "RelativePath": "api/Document/GetCommitedDocumentsByUser/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.DocumentController",
+    "Method": "GetDocbyStatus",
+    "RelativePath": "api/Document/GetDocbyStatus/{docstatus}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "docstatus",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.DocumentController",
+    "Method": "GetDocumentById",
+    "RelativePath": "api/Document/GetDocumentById/{documentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documentId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.DocumentController",
+    "Method": "GetDocumentsByUser",
+    "RelativePath": "api/Document/GetDocumentsByUser/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.DocumentController",
+    "Method": "GetDocumentWithHistory",
+    "RelativePath": "api/Document/GetDocumentWithHistory/{documentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documentId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.DocumentController",
+    "Method": "GetLeaveTypes",
+    "RelativePath": "api/Document/GetLeaveTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.DocumentController",
+    "Method": "GetPendingFormsForHR",
+    "RelativePath": "api/Document/GetPendingFormsForHR",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.DocumentController",
+    "Method": "GetPendingFormsForManager",
+    "RelativePath": "api/Document/GetPendingFormsForManager",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.DocumentController",
+    "Method": "GetRoles",
+    "RelativePath": "api/Document/GetRoles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.DocumentController",
+    "Method": "SendDocumentToEmployee",
+    "RelativePath": "api/Document/SendDocumentToEmployee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "approvedRequest",
+        "Type": "TheExpertise_Emp.Models.ApprovedRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.DocumentController",
+    "Method": "SendToHR",
+    "RelativePath": "api/Document/SendToHR/{documentId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documentId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.DocumentController",
+    "Method": "SendToManager",
+    "RelativePath": "api/Document/SendToManager/{documentId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documentId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.DocumentController",
+    "Method": "UpdateApprovedForm",
+    "RelativePath": "api/Document/UpdateApprovedForm",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatedForm",
+        "Type": "TheExpertise_Emp.Models.ApproveRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.DocumentController",
+    "Method": "UpdateDocument",
+    "RelativePath": "api/Document/UpdateDocument/{documentId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documentId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "documentreq",
+        "Type": "TheExpertise_Emp.Data.DocumentRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.EducationsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Educations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.EducationsController",
+    "Method": "DeleteEducation",
+    "RelativePath": "api/Educations/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.EducationsController",
+    "Method": "GetById",
+    "RelativePath": "api/Educations/Getbyid/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.EducationsController",
+    "Method": "InsertEducation",
+    "RelativePath": "api/Educations/Insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "education",
+        "Type": "TheExpertise_Emp.Models.Educations",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.EducationsController",
+    "Method": "UpdateEducation",
+    "RelativePath": "api/Educations/Update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedEducation",
+        "Type": "TheExpertise_Emp.Models.Educations",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.EmailServiceController",
+    "Method": "SendEmail",
+    "RelativePath": "api/EmailService/send-email",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "emailRequest",
+        "Type": "TheExpertise_Emp.Controllers.EmailRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.FilesController",
+    "Method": "GetAllFiles",
+    "RelativePath": "api/Files",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.FilesController",
+    "Method": "CreateFile",
+    "RelativePath": "api/Files/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Category",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.FilesController",
+    "Method": "GetAllDocumentFiles",
+    "RelativePath": "api/Files/Document",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.FilesController",
+    "Method": "GetProfileImage",
+    "RelativePath": "api/Files/GetProfileImage",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.FilesController",
+    "Method": "GetFileDetails",
+    "RelativePath": "api/Files/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.FilesController",
+    "Method": "EditFile",
+    "RelativePath": "api/Files/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "file",
+        "Type": "TheExpertise_Emp.Models.Files",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.FilesController",
+    "Method": "DeleteFile",
+    "RelativePath": "api/Files/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.FilesController",
+    "Method": "UploadDocument",
+    "RelativePath": "api/Files/uploaddocument",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documentupload",
+        "Type": "TheExpertise_Emp.Data.DocumentUpload",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.FilesController",
+    "Method": "UploadProfile",
+    "RelativePath": "api/Files/UploadProfile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "userID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.FilesController",
+    "Method": "VerifyPassword",
+    "RelativePath": "api/Files/VerifyPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TheExpertise_Emp.Controllers.FilesController\u002BPasswordVerificationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.PasswordResetsController",
+    "Method": "CreatePasswordResetRequest",
+    "RelativePath": "api/PasswordResets/reset-request",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "emailRequest",
+        "Type": "TheExpertise_Emp.Controllers.EmailRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.UsersController",
+    "Method": "GetAll",
+    "RelativePath": "api/Users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.UsersController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/Users/ChangePassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TheExpertise_Emp.Controllers.UsersController\u002BChangePasswordRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.UsersController",
+    "Method": "Getusersbyid",
+    "RelativePath": "api/Users/Getbyid/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.UsersController",
+    "Method": "GetRoles",
+    "RelativePath": "api/Users/GetRoles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.UsersController",
+    "Method": "Create",
+    "RelativePath": "api/Users/Insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "TheExpertise_Emp.Models.Users",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.UsersController",
+    "Method": "Login",
+    "RelativePath": "api/Users/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "TheExpertise_Emp.Models.Users",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.UsersController",
+    "Method": "Profile",
+    "RelativePath": "api/Users/Profile/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.UsersController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/Users/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "TheExpertise_Emp.Models.Users",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.WorkExperiencesController",
+    "Method": "GetAll",
+    "RelativePath": "api/WorkExperiences",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.WorkExperiencesController",
+    "Method": "DeleteExperience",
+    "RelativePath": "api/WorkExperiences/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.WorkExperiencesController",
+    "Method": "GetById",
+    "RelativePath": "api/WorkExperiences/Getbyid/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.WorkExperiencesController",
+    "Method": "WorkExperiences",
+    "RelativePath": "api/WorkExperiences/Insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "exp",
+        "Type": "TheExpertise_Emp.Models.WorkExperiences",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.WorkExperiencesController",
+    "Method": "UpdateExperience",
+    "RelativePath": "api/WorkExperiences/Update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedExperience",
+        "Type": "TheExpertise_Emp.Models.WorkExperiences",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TheExpertise_Emp.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TheExpertise_Emp.WeatherForecast, TheExpertise_Emp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
